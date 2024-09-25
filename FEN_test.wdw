@@ -32,7 +32,7 @@ window :
      p_codes :
       -
         code : |1+
-         ToastAffiche("Hello World pour présentation CHDEV - modifé depuis l'interace web de Github") 
+         ToastAffiche("Hello World pour présentation CHDEV") 
         type : 18
       -
         type : 161
