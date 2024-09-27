@@ -53,6 +53,22 @@ window :
       -
         type : 161
         enabled : false
+  -
+    name : BTN_Bouton_3
+    identifier : 0x26f670850211c713
+    internal_properties : CQAAAAkAAADpvpIM8I0HeluSvgkRFqd3khY5kH10zE1VvNMMi1w/rMVCmHoBxOBW8utFcYYbg0/E9yfTpX7x/VucHmiZkbLiqjvKLwkukfYqQBqrhNP80AY1UyJjLtGAHXNWPQNkFfqlzQ0j128Gg9pY2V/gMLxHzSC8h4kKibkcohEwTVuxzooiJgUCxSwddIsEeEOkKUI4PRMfl6RhC925nn+88rBZsBKo7HmqsCWvOZDj0pMnB4VwaOHuj/sTFzLCtHAGaqWhmRwz2yasWtM46eUydVtOk72a5StZsN123j4fK9U4TrN0iHfLzNlUR/NQhUKfggBkTKLSwhcXTaRYy44vE4tuhlOpSzDXNgLnsYLlnEh0kUJfCdtqbUSkaEsqJ+7K9hLf0tZYGb/6TszP+z0z3t1Mzjxg6rqcsxM11tQMd9LI3g7+iW64fhjrWPumOpMLsWksCzHbWHCeE5+4Xk2VAToWmZpq8vz8Qtg+aeKgslnNvgl3vEFlWlvA16mvxFEbLqt1crnnP6a9AOZWn+TP94Tihsz5CP+9VAr7kR9P378pyXkzk0dbkH5LFAZBPbiYbUsWMpCZSl6rg+1Sipk9435oz+P3ahLYpiLDJTD0EtH9C/eYUUI/wXu90BYs7tv5hxtJ6QCMWiBIVS70R9mmKQEkyK/y1OJSIdI/5UNGdLgz1TnULg6hnFVOUiDaYB/rxfHJz3z3wibEwHF2irGSEKmSVWCoeHx4HJg9cYdhBt0348NHO65zeXwGqnDupEtXa/3nRnScZOXsabiRfsxi3c2U4mqxmfznQP01GgarAPX8B3ifpuEx36uz20SekgzL11OTz0l04z7W8Qme5FzX12W7/Qr6IORZG+G54jFwZ+VMr5xY
+    properties :
+     x : 548
+     y : 87
+     width : 106
+     height : 31
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        type : 161
+        enabled : false
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
