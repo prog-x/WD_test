@@ -80,6 +80,28 @@ window :
       -
         type : 161
         enabled : false
+  -
+    name : LIB_Titre_de_la_fenetre
+    identifier : 0x284ada7f01dde681
+    internal_properties : HwAAAB4AAAA485mrR3+DaiMd5UkFLmead6SRPCRNnERt3vcJ8GkvziiIIjjHsJxTrac/qExoNt78kR8zzSfXXSRgxXG+skQw7N98htsPI6NFwnLgGHbKkfdk01/W1//CCMhUzPMjeQRIaCaeHCDnWQs76kSp06b2wlD0aqUKZUZxRsZobT0+VtnGA1EyC6Wa1r7H1pmrOSoNnFVEHKZjCPgJ0K27ZIVLnwBFc3MTgu4YjVWnwp+wmbRpFwERASjsxbrFZgnuidMF+gTwzbjmA7IRCaoYf0Q4kkmu5ShQ7qvWJsbaUB0LKeEa6XbeZaxKhFBgPoXcCv4NEkhc90pD46aKfcV+ifL1qI83mhS/CumhO4enoTDoYolpOWyrt2jn+TMIqTOjBZzy/eu90xBCLMn54+suPHkF/i4kMC7u8cf2BoZObIrqqgMp+y3j3HzV1CJ4jNjIoa5DRJ4Y1CglH/J86Co6/psLIM4BZVjbFT8MLPDpj5iY+5CdRbNVjMUdg5VgjuyYRKVE6ZhBx9GCvXAigMROHiHfCBKRNipWwJLKUngsz3tG39pjy8rcyGG/9FA=
+    properties :
+     x : 113
+     y : 33
+     width : 483
+     height : 36
+     tab_stop : 0
+     take_focus : 0
+    style : {}
+    type : 3
+    code_elements :
+     type_code : 2
+     p_codes :
+      -
+        code : |1+
+         // Version 1
+         // Description 
+         // Libellé pour écrire un titre
+        type : 14
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
