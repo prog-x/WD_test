@@ -1,0 +1,62 @@
+#To edit and compare internal_properties, use WINDEV integrated tools.
+#Internal properties refer to the properties of controls in windows, reports, etc.
+info :
+ name : clsChien
+ major_version : 30
+ minor_version : 0
+ type : 4
+ description : ""
+ subtype : 0
+ options : 256
+class :
+ identifier : 0x184adcfc00709ec9
+ internal_properties : HwAAAB4AAAD+1kTo6KJy2WQU0Y4fbFD6aQ7NWfD4KKkN7Ml67nIqLXIRxJ1vjfJ1
+ code_elements :
+  type_code : 10
+  p_codes :
+   -
+     code : |1+
+      clsChien est une Classe
+      	hérite de clsAnimal
+      	
+      fin
+     type : 131072
+  procedures :
+   -
+     name : Constructeur
+     procedure_id : 1750454380084174537
+     type_code : 27
+     code : |1+
+      procédure Constructeur()
+      
+     type : 589824
+   -
+     name : Destructeur
+     procedure_id : 1750454380084240073
+     type_code : 28
+     code : |1+
+      procédure Destructeur()
+      
+     type : 655360
+   -
+     name : Cri
+     procedure_id : 1750454427330136825
+     type_code : 12
+     code : |1+
+      // Redéfinition de la méthode clsAnimal.Cri
+      procédure Cri()
+      
+      Trace(:m_sNom + " aboie : Wouf Wouf !")	
+      
+     type : 458752
+  procedure_templates : []
+  property_templates : []
+ code_parameters :
+  internal_properties : HwAAAB4AAAB7MB8NZB5rGUbyk77+IjQnJ74vm430Ar3yq0zmP05sGBBw0ur17uG6ZWry
+  original_name : Classe1
+resources :
+ string_res :
+  identifier : 0x184adcf7006d8cf6
+  internal_properties : HwAAAB4AAAA809Qj/IAi+r8QXyrnW7sarQeYORCUjKBkmMeTFexSj5AuvTfTUpN0Eg==
+custom_note :
+ internal_properties : HwAAAB4AAADnl3uxgA6ylw4vtqUKEOJQD3VAAOKeNUmhPNojcRFoDpHEcUyYAw==
