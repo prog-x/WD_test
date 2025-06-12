@@ -102,6 +102,29 @@ window :
          // Description 
          // Libellé pour écrire un titre
         type : 14
+  -
+    name : BTN_Tests_animaux
+    identifier : 0x284add530305f32d
+    internal_properties : HwAAAB4AAAC0tip1XOziFlgwN38RwIhCzfJWXSoM9gOvpAt96KGXnh8V1w3L1r2bEVM/BEo8JNhvY7ZwjSqvDxYoi5iIfa+MzEMTw1mg9hI8qCdW0n5knNI4ftMKDizoZvm6x7+5z59+2ON+GyGxKiYHOsppw4e4H+N0v59kxrWCan9UzGEVQ3PFjXYWoJ4+c60hCsA7leGKAafAVvEG/HJz3QnZZn7Ccw55hyJJXttohZFnD1v6mATuwjlxXT4v1zGgWouhvh3A6PA0nHBmyJmPpXGTbmStJuzSTdb5weTWJX/EWY3aVv3IOzGFXeYsUZMOnT4prTHPVsBgKof9Z6bBs96YIiVgafZfIVTa6WPgd1bElo0diUZgCgmIUbOMa1N9fwhCIMI0kDyt5xDQ/hknUhIK0d6ln2LPF+UiGAqEd8jhLtQ/0AvDAB2BlzxxlEkY6BAHr6NjFCWsL2adyNZ+maNBk4w6/1zqhQlw56N4umkvc4/v+QIxlgbUxveTjLuCEeuTZzYHWRrmrlyfdsRXMvt4ncytsIDE9Csp5llRhSzOBPeFhDERpY4YkzokCNfBojI0C5mhy8ELLFisfFqc9+ruKuc9iBUdZ/onxAJob6axl8z448Y30Cg4lEZsJ16dJ29NCGIgt3Z45GaHqsl47TZ2w2nRbBsJ2nM1Y2zB5/YRe8wKI7oM/+a5SQfT3gdIe3rx/bKIRDGNsYA0SRfmCiUlfQ78dwGvOou9aKC96xogQeLq0PrfSZFvMeZa6YWxR9ePZFEoCVpYk3UZ0dE8UbSf8FlzF9gqH92Z4FoQR2c4iFzR1zUYROH2qpRGsYEHygy3iTFB1q0EVa/HusJHwQPbq3Jm3FVuUjaOA9tQoWBr
+    properties :
+     x : 155
+     y : 199
+     width : 168
+     height : 31
+     accelerator_key : 65535
+     tab_order : 3
+    style : {}
+    type : 4
+    code_elements :
+     type_code : 4
+     p_codes :
+      -
+        code : |1-
+         TestAnimaux()
+        type : 18
+      -
+        type : 161
+        enabled : false
  menu :
   name : _Menu
   identifier : 0x292573e513b5f221
