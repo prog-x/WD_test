@@ -37,7 +37,7 @@ window :
      p_codes :
       -
         code : |1+
-         ToastAffiche("Hello World pour présentation CHDEV") 
+         Trace("Hello World")
         type : 18
       -
         type : 161
