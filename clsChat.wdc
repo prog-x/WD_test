@@ -1,0 +1,17 @@
+// Définition de la classe clsChat
+clsChat est une Classe
+
+    // Propriété Nom
+    Nom est une chaîne
+
+    // Constructeur
+    PROCEDURE CONSTRUCTEUR(tcNom est une chaîne)
+        Moi.Nom = tcNom
+    FIN
+
+    // Méthode Crier
+    PROCEDURE Crier() : chaîne
+        RENVOYER "Miaou! Mon nom est " + Moi.Nom
+    FIN
+
+FIN

@@ -143,6 +143,31 @@ window :
   p_codes :
    -
      code : |1+
+      // Local procedure to test clsChat
+      PROCEDURE TestClsChat()
+	MonChat est un clsChat("MinouLeChat") // Create an instance of clsChat
+
+	// Test 1: Check the name
+	SI MonChat.Nom = "MinouLeChat" ALORS
+		Trace("Test Nom du chat : RÉUSSI (Nom=" + MonChat.Nom + ")")
+	SINON
+		Trace("Test Nom du chat : ÉCHOUÉ (Attendu=MinouLeChat, Obtenu=" + MonChat.Nom + ")")
+		Erreur("Test échoué : Nom incorrect. Attendu 'MinouLeChat', Obtenu '" + MonChat.Nom + "'")
+	FIN
+
+	// Test 2: Check the Crier() method
+	VariableValeurAttendueCri est une chaîne = "Miaou! Mon nom est MinouLeChat"
+	VariableValeurObtenueCri est une chaîne = MonChat.Crier()
+	SI VariableValeurObtenueCri = VariableValeurAttendueCri ALORS
+		Trace("Test Cri du chat : RÉUSSI (Cri=" + VariableValeurObtenueCri + ")")
+	SINON
+		Trace("Test Cri du chat : ÉCHOUÉ (Attendu=" + VariableValeurAttendueCri + ", Obtenu=" + VariableValeurObtenueCri + ")")
+		Erreur("Test échoué : Crier incorrect. Attendu '" + VariableValeurAttendueCri + "', Obtenu '" + VariableValeurObtenueCri + "'")
+	FIN
+
+	Trace("TestClsChat terminé.")
+      FIN
+
       PROCEDURE MaFenêtre()
    -
      type : 180
@@ -150,6 +175,12 @@ window :
    -
      type : 230
      enabled : false
+   -
+     code : |1+
+      // Code for BTN_Test_Chat - Click
+      // TestClsChat()
+     type : 18 // Assuming 18 is a click event type, like for BTN_Bouton_Hello_World
+     comment : "This is the click event code for BTN_Test_Chat. The button itself needs to be created in the WinDev editor with the name BTN_Test_Chat and caption 'Tester clsChat'."
  code_parameters :
   internal_properties : HwAAAB4AAAC7nJVfZ2kBpDeosTpK6I68RLLpqyvPDQ4sPyQ80kxeZtp4HFV+S4Nl4d8ddIYnV9pfe62HNdBNKQHoHPz+j0l0Rv9M9hbCP+0oQ+Q6iP5/WhSXS17xgUy+WbE=
   original_name : Modele1
